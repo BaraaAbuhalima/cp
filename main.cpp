@@ -77,7 +77,6 @@ int32_t main()
         for (int i = 0; i < n; i++)
         {
             pre[i + 1] = pre[i] + ((T[i] == 1) ? A[i] : -A[i]);
-            Ans[i+1]=Ans[i]+mp[]
         }
         ordered_multiset<int> mst;
 
